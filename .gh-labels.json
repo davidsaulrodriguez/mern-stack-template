@@ -1,0 +1,92 @@
+[
+  {
+    "name": "good first issue",
+    "color": "7057ff",
+    "description": "Good for newcomers"
+  },
+  {
+    "name": "help wanted",
+    "color": "008672",
+    "description": "Extra attention is needed"
+  },
+  {
+    "name": "priority: critical",
+    "color": "b60205",
+    "description": "A time-sensitive issue and inability to use mission critical application within a Production System"
+  },
+  {
+    "name": "priority: high",
+    "color": "d93f0b",
+    "description": "An issue that is time-sensitive to long-term productivity and not causing an immediate work stopage"
+  },
+  {
+    "name": "priority: low",
+    "color": "0e8a16",
+    "description": "Bugs and/or requests that are low priority and dont pose a security issue"
+  },
+  {
+    "name": "priority: medium",
+    "color": "fbca04",
+    "description": "A time-sensitive issue that can be circumvented and software is adversely affected"
+  },
+  {
+    "name": "status: can't reproduce",
+    "color": "fec1c1",
+    "description": "A bug report or issue that can't be reproduced"
+  },
+  {
+    "name": "status: confirmed",
+    "color": "215cea",
+    "description": "Confirms the status of a bug once reviewed "
+  },
+  {
+    "name": "status: duplicate",
+    "color": "cfd3d7",
+    "description": "This issue or pull request already exists"
+  },
+  {
+    "name": "status: needs information",
+    "color": "fef2c0",
+    "description": "This issue or pull request requires more information before it can be considered or confirmed"
+  },
+  {
+    "name": "status: wont do/fix",
+    "color": "eeeeee",
+    "description": "This will not be worked on"
+  },
+  {
+    "name": "type: bug",
+    "color": "d73a4a",
+    "description": "Something isn't working"
+  },
+  {
+    "name": "type: discussion",
+    "color": "d4c5f9",
+    "description": "This issue or pull request requires a community and/or board discussion"
+  },
+  {
+    "name": "type: documentation",
+    "color": "006b75",
+    "description": "Improvements or additions to documentation"
+  },
+  {
+    "name": "type: enhancement",
+    "color": "84b6eb",
+    "description": "Improvements or additions to an existing feature or feature set"
+  },
+  {
+    "name": "type: epic",
+    "color": "3E4B9E",
+    "description": "A theme of work that contain sub-tasks"
+  },
+  {
+    "name": "type: feature request",
+    "color": "fbca04",
+    "description": "New feature or request"
+  },
+  {
+    "name": "type: question",
+    "color": "d876e3",
+    "description": "Further information is requested"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "endOfLine": "lf",
+  "arrowParens": "always",
+  "jsxBracketSameLine": true,
+  "jsxSingleQuote": true,
+  "bracketSpacing": true,
+  "singleQuote": true,
+  "htmlWhitespaceSensitivity": "strict",
+  "useTabs": false
+}

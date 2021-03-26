@@ -1,0 +1,44 @@
+# OS Type
+os: linux
+# Use the latest Ubuntu 20.04 LTS
+dist: focal
+# MongoDB 4.4
+addons:
+  apt:
+    sources:
+      - sourceline: "deb https://repo.mongodb.org/apt/ubuntu $(lsb_release -cs)/mongodb-org/4.4 multiverse"
+        key_url: "https://www.mongodb.org/static/pgp/server-4.4.asc"
+
+# Set language support to JavaScript / NodeJS
+language: node_js
+
+# Enable MySQL or MongoDB service
+services:
+  - mongodb
+
+# Test against the most current version and latest supported LTS versions of NodeJS
+# Current versions move too quickly, so we don't bother to support these releases.
+node_js:
+  - lts/*
+  - 14
+  - 12
+
+# install NPM packages from the package.lock file
+install:
+  - npm install
+
+# run required scripts before the build process starts
+script:
+  - npm test
+
+# Branch blocklist - These branches won't trigger a build.
+branches:
+  only:
+    - main
+    - develop # Triggers builds on the develop branch
+    - /^(release)-\d+\.\d+(\.\d+)?(-\S*)?$/ # Triggers a build on release-x.x.x branches.
+# - /^v\d+\.\d+(\.\d+)?(-\S*)?$/ # Triggers a build on vX.X.X tags.
+
+env:
+  global:
+    - MONGODB_VERSION=4.4.4
