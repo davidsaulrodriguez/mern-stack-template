@@ -6,7 +6,7 @@ Below is a list of the currently supported versions of this software. You can vi
 | :-----: | :----------------: | :-------------: | :--------------: | :-------------------: | :---------: |
 | develop |      Unstable      |        -        |        -         |           -           |      -      |
 |   v1    | :heavy_check_mark: |   2021-03-25    |    2021-09-25    |           -           | 2022-03-25  |
-|   v2    |   :construction:   |   2022-03-01    |    2022-09-01    |      2022-03-01       | 2023-03-01  |
+|   v2    |   :construction:   |   2022-03-01    |    2022-09-01    |      2023-03-01       | 2024-03-01  |
 
 ## Status Key Map
 

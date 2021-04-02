@@ -191,11 +191,11 @@ Below is a list of the currently supported versions of this software.
 
 > Note: This project is an ephemeral homework assignment and will not be worked on past its release (due date). Hence the week-long support life cycle.
 
-| Release | Status             | Initial Release | Active LTS Start | Maintenance LTS Start | End of Life |
-| ------- | ------------------ | --------------- | ---------------- | --------------------- | ----------- |
-| develop | Unstable           | -               | -                | -                     | -           |
-| v1      | :heavy_check_mark: | 2021-03-25      | 2021-09-25       | -                     | 2022-03-25  |
-| v2      | :construction:     | 2022-03-01      | 2022-09-01       | 2022-03-01            | 2023-03-01  |
+| Release |       Status       | Initial Release | Active LTS Start | Maintenance LTS Start | End of Life |
+| :-----: | :----------------: | :-------------: | :--------------: | :-------------------: | :---------: |
+| develop |      Unstable      |        -        |        -         |           -           |      -      |
+|   v1    | :heavy_check_mark: |   2021-03-25    |    2021-09-25    |           -           | 2022-03-25  |
+|   v2    |   :construction:   |   2022-03-01    |    2022-09-01    |      2023-03-01       | 2024-03-01  |
 
 You can view the Status Key Map and software support model [here][support].
 
