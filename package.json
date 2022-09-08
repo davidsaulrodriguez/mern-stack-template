@@ -1,6 +1,6 @@
 {
   "name": "mern-stack-template",
-  "version": "1.1.0",
+  "version": "1.4.0",
   "description": "A MERN Stack Template created to easily get started with developing a Full Stack Web App using the complete MERN Stack",
   "main": "server.js",
   "scripts": {
