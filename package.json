@@ -42,7 +42,7 @@
     "express": "^4.17.1",
     "helmet": "^4.4.1",
     "if-env": "^1.0.4",
-    "mongoose": "^5.12.2"
+    "mongoose": "^5.13.20"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.16.3",
